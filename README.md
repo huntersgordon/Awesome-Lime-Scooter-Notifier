@@ -7,13 +7,13 @@ First, run the setup script. You must have a Lime Account in order to do this.
 After you have correctly entered your information, a file titled "LimeUser.txt" will appear in the directory.
 
 Once the file's been generated, you're good to go.
-Before you run the program, make sure to set ```currLocation``` to the location where you'd like to look for scooters.
+Before you run the program, make sure to set ```currLocation``` on line ```12``` of ```getNearestScooter.py``` to the location where you'd like to look for scooters.
 
 ```python3 getNearestScooter.py```
 
 There are a few variables that you can tweak to modify the behavior of the program.
-Perhaps the most important one is on line 14, ```outputAllScooters = False```. Changing the value to ```True``` will only return the list of scooters within ```radius```.
-Set radius to a high value if you'd like to see as many locations as possible.
+Perhaps the most important one is on line ```14```, ```outputAllScooters = False```. Changing the value to ```True``` will only return the list of scooters within ```radius```.
+Set ```radius``` to a high value if you'd like to see as many locations as possible.
 
 Since the respository is called "Awesome-Lime-Scooter-Notifier", you're probably wondering what the awesome part is.
 getNearestScooter.py, when ```outputAllScooters``` is set to false, will constantly query the Lime API, seeking new scooters.
