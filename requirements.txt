@@ -1,5 +1,0 @@
-pygame==1.9.5
-pymunk==5.4.2
-urllib3==1.24.1
-vincenty==0.1.4
-
