@@ -7,7 +7,8 @@ First, run the setup script. You must have a Lime Account in order to do this.
 After you have correctly entered your information, a file titled "LimeUser.txt" will appear in the directory.
 
 Once the file's been generated, you're good to go.
-Before you run the program, make sure to set ```currLocation``` on line ```12``` of ```getNearestScooter.py``` to the location where you'd like to look for scooters.
+Before you run the program, make sure to set ```currLocation``` on line ```12``` of ```getNearestScooter.py``` to the location where you'd like to look for scooters. And you need to enter the location via latitude and longitude— here is a link that
+converts an address to GPS coordinates: [gps-coordinates.net](https://www.gps-coordinates.net/)
 
 ```python3 getNearestScooter.py```
 
